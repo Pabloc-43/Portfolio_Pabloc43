@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react"
+
 
 export default function Header() {
+
+
     return (
-<header style={{'position': 'sticky'}}>
+<header style={{'position': 'fixed', 'height':'100px', 'zIndex':'100'}}>
     <nav className="navbar navbar-expand-lg navbar-light bg-light" >
       <div className="container ">
-        <a className="navbar-brand" href="#"><img src="./images/Logo.png" style={{'minWidth': '60px'}} className="logo" alt="Logo" /></a>
+        <button className="d-none d-sm-flex navbar-brand border-0 bg-light"><img src="./images/Logo.png" style={{'minWidth': '60px'}} className="logo" alt="Logo" /></button>
         <button className="navbar-toggler my-4 ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
