@@ -13,6 +13,12 @@
     width: 18%;
 }
 
+.Pablo{
+    -webkit-clip-path: ellipse(42% 43% at 45% 43%);
+clip-path: ellipse(42% 43% at 45% 43%);
+padding-top: 130px;
+}
+
 
 .imagen{
     width: 100%;
