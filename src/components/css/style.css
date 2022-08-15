@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.cvc{
+    width: 100vw;
+    height: 100vh;
+}
+
 .logo{
     width: 18%;
 }
