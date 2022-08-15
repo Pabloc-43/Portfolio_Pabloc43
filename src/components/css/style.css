@@ -16,7 +16,13 @@
 
 .imagen{
     width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
     padding: 50px 0 0 0;
+    /*
+    -webkit-clip-path: circle(47.5% at 74% 49%);
+    clip-path: circle(47.5% at 74% 43%);
+    */
 }
 
 
@@ -428,9 +434,7 @@ figure:hover .ocull{
     .espacioR{
         margin-top: 20vh !important;
     }
-    .imagen{
-        display: none;
-    }
+
 
 
 }
@@ -480,7 +484,4 @@ animation-play-state: paused;
 
 
 
-body{
-    overflow-x: hhidden;
-} 
 
