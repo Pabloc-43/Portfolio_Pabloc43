@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function SobreMiTargeta(props) {
-    const {id, title, clasesIcon, content} = props.items;
+    const {id, title, clasesIcon, content, claseCSS} = props.items;
   return (
-    <div className='col-5 justify-content-center d-flex bg-warning m-2'>
+    <div className={claseCSS}>
         <div>
             <i className={clasesIcon}></i>
         </div>
