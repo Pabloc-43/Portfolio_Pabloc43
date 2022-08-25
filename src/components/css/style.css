@@ -152,11 +152,6 @@ body{
 .separacion{
     margin: 70px 0;
     height: 50vh;
-    background-color: rgb(0, 162, 255);
-    background-image: url(../images/Divisoria1.gif);
-    background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 .separacion2{
     background-image: url(../images/espacio2.svg);
