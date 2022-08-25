@@ -151,7 +151,8 @@ body{
 
 .separacion{
     margin: 70px 0;
-    height: 50vh;
+    max-height: 500px;
+    height: 50vw;
 }
 .separacion2{
     background-image: url(../images/espacio2.svg);
