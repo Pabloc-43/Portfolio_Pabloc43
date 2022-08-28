@@ -5,7 +5,12 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import SobreMi from './components/SobreMi';
 import Divisoria from './components/reutilizables/Divisoria';
-import Img from './components/images/Divisoria1.gif'
+import Img1 from './components/images/Divisoria1.gif';
+import Img2 from './components/images/espacio1.svg';
+import Certificaciones from './components/Certificaciones';
+import Proyectos from './components/Proyectos';
+import Footer from './components/Footer';
+import Contacto from './components/Contacto';
 
 function App() {
   
@@ -14,11 +19,13 @@ function App() {
     <Header />
     <HeroSection />
     <SobreMi />
+    <Divisoria imagen={Img1}/>
     <Conocimientos />
-    <Divisoria imagen={Img}/>
-    <div   className='mt-5 d-block' style={{'height': '10000px', 'paddingTop':'100px'}}>
-      <h1 className='mt-5'>Contenido</h1>
-    </div>
+    <Certificaciones />
+    <Divisoria imagen={Img2}/>
+    <Proyectos />
+    <Contacto />
+    <Footer />
     </>
   );
 }

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+
 
 export default function ConocimientosTargeta({props}) {
   console.log(props);
-  const {id, title, descripcion, imagen, claseCSS} = props;
+  const {title, descripcion, imagen, claseCSS} = props;
   return (
     <div className={claseCSS}>
     <div className="card h-100">
